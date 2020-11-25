@@ -5,11 +5,11 @@ import CounterContext from './CounterContext';
 
 function App() {
   return (
-    <CounterContext value={10}>
+    <CounterContext.Provider value={10}>
       <div>
         <Parent  />
       </div>
-    </CounterContext>
+    </CounterContext.Provider>
   );
 }
 
