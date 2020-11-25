@@ -8,7 +8,6 @@ const Child = () => {
 	return(
 			<div>
 				<h2>This is first child</h2>
-				<h2>This is first child</h2>
 			</div>
 		)
 }
